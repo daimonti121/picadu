@@ -215,17 +215,18 @@ body {
 }
 
 .user {
-  background-color: #fafafa;
-  border: 1px solid #e8e8e8;
-  padding: 15px 25px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   text-decoration: none;
 }
 .user-info {
   display: flex;
   align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  padding: 15px 25px;
+  justify-content: space-between;
 }
 .user-avatar {
   border-radius: 50%;
@@ -305,7 +306,7 @@ body {
 .button-outline .icon {
   width: 14px;
   height: 11px;
-  background: #ffc53d;
+  fill: #ffc53d;
 }
 .button:hover {
   background-color: #faad14de;
@@ -471,6 +472,7 @@ body {
   border: 1px solid #e8e8e8;
   padding: 23px 30px;
   margin-bottom: 16px;
+  resize: none;
 }
 .add-text {
   min-height: 362px;
